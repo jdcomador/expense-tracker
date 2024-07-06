@@ -19,6 +19,7 @@ class CreateExpensesTable extends Migration
             $table->integer('price');
 			$table->date('bought_date');
 			$table->binary('receipt')->nullable();
+			$table->index(['id', 'name', 'bought_date']);
         });
     }
 
