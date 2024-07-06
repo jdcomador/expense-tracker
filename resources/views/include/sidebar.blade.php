@@ -1,7 +1,7 @@
 	<!-- Main Sidebar Container -->
 	<aside class="main-sidebar sidebar-dark-primary elevation-4">
 		<!-- Brand Logo -->
-		<a href="index3.html" class="brand-link text-center">
+		<a href="/" class="brand-link text-center">
 			<img src="{{ asset('/images/logo.png') }}" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
 			<span class="brand-text font-weight-bold">Expense Tracker</span>
 		</a>
@@ -24,21 +24,21 @@
 					<!-- Add icons to the links using the .nav-icon class
 						with font-awesome or any other icon font library -->
 					<li class="nav-item">
-						<a href="#" class="nav-link">
-						<i class="nav-icon fas fa-tachometer-alt"></i>
-						<p>Dashboard</p>
+						<a href="/dashboard" class="nav-link">
+							<i class="nav-icon fas fa-tachometer-alt"></i>
+							<p>Dashboard</p>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">
-						<i class="nav-icon fas fa-hand-holding-usd"></i>
-						<p>Expenses</p>
+						<a href="/expenses" class="nav-link">
+							<i class="nav-icon fas fa-hand-holding-usd"></i>
+							<p>Expenses</p>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">
-						<i class="nav-icon fas fa-file"></i>
-						<p>Reports</p>
+						<a href="/reports" class="nav-link">
+							<i class="nav-icon fas fa-file"></i>
+							<p>Reports</p>
 						</a>
 					</li>
 				</ul>
